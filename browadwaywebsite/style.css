@@ -18,21 +18,23 @@ html, body {
 }
 
 .jumbotron {
-  height: 800px;
+  height: 342px;
   width:auto;
   background-image:url('https://ephemeralnewyork.files.wordpress.com/2008/12/stonestreet2008.jpg');
+  background-position: center;
 }
 
 .nav {
   margin: 0;
   padding: 20;
+
 }
 
-.nav li {
+.nav il {
   color: #fff;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 16px;
 
 }
 
@@ -140,4 +142,8 @@ html, body {
   .supporting .col {
     width: 100%;
   }
+}
+
+.nav il {
+  padding:15px;
 }
