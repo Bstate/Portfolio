@@ -1,0 +1,13 @@
+var slaying = true;
+var youhit = Math.floor(Math.random()*2);
+var damageThisRound = Math.floor(Math.random()*5+1);
+var totalDamage = 0;
+
+while(slaying){
+    slaying=false;
+    if(youhit=1){
+        console.log("You beat the dragon!")
+    }else{
+        console.log("The dragon beat you!")
+    }
+}
